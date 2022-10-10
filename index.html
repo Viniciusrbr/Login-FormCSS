@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header class="site-logo">
+            <img src="images/logo.svg" alt="Logo do site">
+        </header>
+
+
+        <main class="login-container">
+            <div class="login-header">
+                <h1><img src="images/log-in.svg" alt=""> Faça seu login</h1>
+            </div>
+
+            <div class="user-information">
+                <label class="user-info" for="email">E-mail</label>
+                <input class="login-input" id="email" type="email" name="email" placeholder="Digite seu email">
+
+                <label class="user-info" for="password">Senha</label>
+                <input class="login-input" id="password" type="password" name="password" placeholder="Digite sua senha">
+                <img class="icon-eye-password" src="images/eye.svg" alt="Icone para exibir ou ocultar senha">
+            </div>
+
+            <div class="save-info">
+                <label class="checkbox" for="">
+                    <input class="login-checkbox" type="checkbox" name="checkbox" id="checkbox">Lembre-me
+                </label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+
+            <button id="btn-login" type="button">entrar</button>
+
+            <div class="register">
+                <p>Não tem uma conta?</p>
+                <strong><a href="#">Registre-se</a></strong>
+            </div>
+        </main>
+    </div>
+
+    <div class="wapapper"></div>
+</body>
+
+</html>
